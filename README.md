@@ -21,6 +21,7 @@ npm install @tailwindcss/vite
 npm install emailjs-com
 
 here is the html with the font families:
+```html
 <!doctype html>
 <html lang="en">
   <head>
@@ -37,4 +38,4 @@ here is the html with the font families:
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
-
+```
