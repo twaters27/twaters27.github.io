@@ -20,7 +20,7 @@ export const Projects = () => {
                 and MySQL featuring real-time updates and user authentication.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["MySQL", "Git", "Tailwind", "PHP", "HTML"].map(
+                {["MySQL", "Git", "Tailwind", "PHP", "HTML", "CSS"].map(
                   (tech, key) => (
                     <span
                       key={key}
@@ -57,20 +57,22 @@ export const Projects = () => {
                 customizable product inventory. Based on Amazon.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["MongoDB", "ExpressJS", "React"].map((tech, key) => (
-                  <span
-                    key={key}
-                    className="
+                {["MongoDB", "ExpressJS", "React", "JavaScript"].map(
+                  (tech, key) => (
+                    <span
+                      key={key}
+                      className="
                       bg-purple-500/10 text-purple-500 py-1 px-3
                       rounded-full text-sm
                       transition
                       hover:bg-purple-500/20 hover:-translate-y-0.5
                       hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]
                     "
-                  >
-                    {tech}
-                  </span>
-                ))}
+                    >
+                      {tech}
+                    </span>
+                  )
+                )}
               </div>
               <div className="flex justify-between items-center">
                 <a
@@ -97,7 +99,7 @@ export const Projects = () => {
                 Web Based chess game built with HTML, CSS, and Javascript.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["JavaScript", "Python", "HTML", "PyGame"].map((tech) => (
+                {["JavaScript", "HTML", "CSS"].map((tech) => (
                   <span
                     key={tech}
                     className="
@@ -135,7 +137,7 @@ export const Projects = () => {
                 Fully implemented chess game made in Python and Pygame.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Socket.IO", "Express", "React", "Redis"].map((tech, key) => (
+                {["Python", "PyGame"].map((tech, key) => (
                   <span
                     key={key}
                     className="
