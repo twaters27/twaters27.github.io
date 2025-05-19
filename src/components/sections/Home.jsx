@@ -13,10 +13,10 @@ export const Home = () => {
           </h1>
 
           <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            I am a full-stack developer with 4 years of experience in building
-            responsive and user-friendly web applications. I specialize in
-            JavaScript, React, and Node.js, and I am passionate about creating
-            efficient and scalable solutions.
+             I am a full-stack developer with lots of experience in building
+            responsive and user-friendly applications. I have multiple
+            certifications in web development and am looking to learn and build
+            new things everyday.
           </p>
           <div className="flex justify-center space-x-4">
             <a
